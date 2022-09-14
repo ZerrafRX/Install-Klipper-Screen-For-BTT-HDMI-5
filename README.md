@@ -26,8 +26,8 @@ git clone https://github.com/th33xitus/kiauh.git
 
 
 
-Once Klipper screen is installed you will have to edit your Moonraker.cfg on eithe mainsail or fluid 
-add this to your trusted clients srction
+Once Klipper screen is installed you will have to edit your Moonraker.cfg on either mainsail or fluid 
+add this to your trusted clients section
 ```shell
 [authorization]
 trusted_clients:
@@ -47,7 +47,7 @@ install_script: scripts/KlipperScreen-install.sh
 managed_services: KlipperScreen
 ```
 
-SSH into you pi (e.x: ssh pi@mainsail.local or pi@IP OF PI)
+SSH into your pi (e.x: ssh pi@mainsail.local or pi@IP OF PI)
 
 you will now need to edit the config.txt file from your boot directory of your Raspberry pi 
 
