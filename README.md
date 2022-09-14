@@ -1,4 +1,4 @@
-!
+
 
 
 # Install-Klipper-Screen-For-BTT-HDMI-5
@@ -22,7 +22,7 @@ git clone https://github.com/th33xitus/kiauh.git
 ./kiauh/kiauh.sh
 ```
 
-[kiauh](https://user-images.githubusercontent.com/39313169/190041436-03ef5598-1e95-4956-adcc-1acd23e73144.png)
+![kiauh](https://user-images.githubusercontent.com/39313169/190041436-03ef5598-1e95-4956-adcc-1acd23e73144.png)
 
 
 Once Klipper screen is installed you will have to edit your Moonraker.cfg on eithe mainsail or fluid 
