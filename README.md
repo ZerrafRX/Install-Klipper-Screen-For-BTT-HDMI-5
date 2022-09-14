@@ -23,7 +23,7 @@ git clone https://github.com/th33xitus/kiauh.git
 ```
 
 <img width="462" alt="kiauh-1" src="https://user-images.githubusercontent.com/39313169/190041543-41b79e28-c515-4c75-9fb5-89bc80af5064.png">
-!
+
 
 
 Once Klipper screen is installed you will have to edit your Moonraker.cfg on eithe mainsail or fluid 
@@ -74,6 +74,7 @@ type
 ```shell
 reboot 
 
-```into your terminal to see if screen size updated properly
+```
+into your terminal to see if screen size updated properly
 
 You should be all set!
