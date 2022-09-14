@@ -22,7 +22,8 @@ git clone https://github.com/th33xitus/kiauh.git
 ./kiauh/kiauh.sh
 ```
 
-![kiauh](https://user-images.githubusercontent.com/39313169/190041436-03ef5598-1e95-4956-adcc-1acd23e73144.png)
+<img width="462" alt="kiauh-1" src="https://user-images.githubusercontent.com/39313169/190041543-41b79e28-c515-4c75-9fb5-89bc80af5064.png">
+!
 
 
 Once Klipper screen is installed you will have to edit your Moonraker.cfg on eithe mainsail or fluid 
