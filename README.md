@@ -35,6 +35,6 @@ Y to save
 
 hit enter (do not change the name of this file ever)
 
-type reboot into your terminal to see if screen size updated properly
+type "reboot" into your terminal to see if screen size updated properly
 
 You should be all set!
