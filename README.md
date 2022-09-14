@@ -23,9 +23,30 @@ git clone https://github.com/th33xitus/kiauh.git
 
 
 
-Once Klipper screen is installed you will have to edit your config.txt from the boot folder
+Once Klipper screen is installed you will have to edit your Moonraker.cfg on eithe mainsail or fluid 
+add this to your trusted clients srction
+```shell
+[authorization]
+trusted_clients:
+  127.0.0.1
+  ```
+  
+  If you wish to use the update manager feature of moonraker for KlipperScreen, add the following block to the moonraker.conf:
 
-SSH into you pi (e.x: ssh pi@<hostname.here>)
+```shell
+[update_manager KlipperScreen]
+type: git_repo
+path: ~/KlipperScreen
+origin: https://github.com/jordanruthe/KlipperScreen.git
+env: ~/.KlipperScreen-env/bin/python
+requirements: scripts/KlipperScreen-requirements.txt
+install_script: scripts/KlipperScreen-install.sh
+managed_services: KlipperScreen
+```
+
+SSH into you pi (e.x: ssh pi@mainsail.local or pi@IP OF PI)
+
+you will now need to edit the config.txt file from your boot directory of your Raspberry pi 
 
 ```shell
 
@@ -39,7 +60,7 @@ hdmi_mode=87
 hdmi_cvt=800 480 60 6 0 0 0
 hdmi_drive=1
 ```
-hit ^X (for mac) 
+hit ^X (for mac) or ctrl-X(for windows) 
 
 Y to save
 
