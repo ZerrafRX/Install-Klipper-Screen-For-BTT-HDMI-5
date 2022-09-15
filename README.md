@@ -57,10 +57,20 @@ sudo nano /boot/config.txt
 ```
 
 add these lines to the very bottom
+
+For the 5" display
 ```shell
 hdmi_group=2
 hdmi_mode=87
 hdmi_cvt=800 480 60 6 0 0 0
+hdmi_drive=1
+```
+
+for the 7" display
+```shell
+hdmi_group=2
+hdmi_mode=87
+hdmi_cvt=1024 600 60 6 0 0 0
 hdmi_drive=1
 ```
 hit ^X (for mac) or ctrl-X(for windows) 
